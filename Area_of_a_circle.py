@@ -1,3 +1,2 @@
 r=int(input())
-a=3.14*r*r
-print(round(a,2))
+print('%.2f'%(3.14*r*r))
