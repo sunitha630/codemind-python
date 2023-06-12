@@ -1,8 +1,6 @@
 n=int(input())
-a=n**(0.5)
-p=int(a)
-if (p*p==n):
+sq=n**0.5
+if sq==round(sq):
     print('True')
 else:
     print('False')
-    
