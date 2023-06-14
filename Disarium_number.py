@@ -1,15 +1,16 @@
 n=int(input())
-t=n
+l=len(str(n))
 s=0
-d=len(str(n))
+temp=n
 while n!=0:
     r=n%10
-    s=s+(r**d)
-    d-=1
+    s=s+(r**l)
+    l=l-1
     n//=10
-if s==t:
+if temp==s:
     print('True')
 else:
     print('False')
 
+    
         
